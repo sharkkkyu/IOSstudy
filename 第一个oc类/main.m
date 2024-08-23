@@ -6,11 +6,13 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Phone.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Phone *myphone = [[Phone alloc] init];
+        [myphone call:@"ysm" name2:@"ysm2"];
+        
+     
     }
     return 0;
 }
