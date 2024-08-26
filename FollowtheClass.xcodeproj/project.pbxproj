@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A378AC5E2C787E6C00802CE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A378AC5D2C787E6C00802CE1 /* main.m */; };
-		A378AC702C788E1E00802CE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A378AC6F2C788E1E00802CE1 /* main.m */; };
 		A378AC762C789F2D00802CE1 /* Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = A378AC752C789F2D00802CE1 /* Phone.m */; };
+		A378AC7B2C7C2CF700802CE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A378AC6F2C788E1E00802CE1 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -182,8 +182,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A378AC7B2C7C2CF700802CE1 /* main.m in Sources */,
 				A378AC762C789F2D00802CE1 /* Phone.m in Sources */,
-				A378AC702C788E1E00802CE1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

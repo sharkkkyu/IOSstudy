@@ -13,7 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic) int model;
 @property (nonatomic) int number;
 -(void) call : (NSString*) name1 name2:(NSString*) name2;
-
+-(void) ring;
++(NSString *)receiveMessagewithValue :(int) number from:(NSString*) name;
 @end
 
 NS_ASSUME_NONNULL_END

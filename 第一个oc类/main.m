@@ -10,9 +10,13 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         Phone *myphone = [[Phone alloc] init];
+        myphone.model=123;
         [myphone call:@"ysm" name2:@"ysm2"];
-        
-     
+        NSLog(@"model:%d",myphone.model);
+        [myphone ring];
+        myphone.ring;
+        NSString * a = [Phone receiveMessagewithValue:182 from:@"yu"];
+        NSLog(@"%@",a);
     }
     return 0;
 }
