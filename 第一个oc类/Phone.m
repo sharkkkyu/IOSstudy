@@ -18,5 +18,8 @@
 +(NSString *)receiveMessagewithValue :(int) number from:(NSString*) name {
     return [NSString stringWithFormat:@"you receive a message from number:%i from :%@",number,name];
 }
+-(void)aboutid:(id)id1{
+    NSLog(@"%@",id1);
+}
 
 @end

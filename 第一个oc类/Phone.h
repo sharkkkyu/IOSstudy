@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 -(void) call : (NSString*) name1 name2:(NSString*) name2;
 -(void) ring;
 +(NSString *)receiveMessagewithValue :(int) number from:(NSString*) name;
+-(void)aboutid : (id) id1;
 @end
+
 
 NS_ASSUME_NONNULL_END

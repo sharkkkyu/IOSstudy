@@ -14,9 +14,13 @@ int main(int argc, const char * argv[]) {
         [myphone call:@"ysm" name2:@"ysm2"];
         NSLog(@"model:%d",myphone.model);
         [myphone ring];
-        myphone.ring;
+        [myphone aboutid:@true];
+//        myphone.ring; 报warning
+        //类方法
+
         NSString * a = [Phone receiveMessagewithValue:182 from:@"yu"];
         NSLog(@"%@",a);
     }
+        
     return 0;
 }
