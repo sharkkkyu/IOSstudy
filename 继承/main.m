@@ -17,6 +17,8 @@ int main(int argc, const char * argv[]) {
         [Android sendMessage:@"小团" withNumber:12333];
         Phone *p = [iPhone new]; //多态
         [p hisiri];
+        [p setNumber:123];
+        NSLog(@"%i",[p number]);
         
     }
     return 0;
