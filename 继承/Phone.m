@@ -16,4 +16,8 @@
 {
     NSLog(@"使用手机发送短信：%@给%i",content,number);
 }
+-(void)hisiri
+{
+    NSLog(@"hisiri");
+}
 @end

@@ -15,6 +15,8 @@ int main(int argc, const char * argv[]) {
         [iPhone sendMessage:@"小美" withNumber:1444];
         [Android callWithNumber:12313];
         [Android sendMessage:@"小团" withNumber:12333];
+        Phone *p = [iPhone new]; //多态
+        [p hisiri];
         
     }
     return 0;

@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic) NSString* model;
 +(void) callWithNumber :(int) number;
 +(void) sendMessage :(NSString*) content withNumber:(int) number;
+-(void) hisiri;
 @end
 
 NS_ASSUME_NONNULL_END
