@@ -18,6 +18,7 @@ int main(int argc, const char * argv[]) {
         Phone *p = [iPhone new]; //多态
         [p hisiri];
         [p setNumber:123];
+        [p number];
         NSLog(@"%i",[p number]);
         
     }
