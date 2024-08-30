@@ -15,6 +15,7 @@
 		A378AC982C7DBE2B00802CE1 /* iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = A378AC972C7DBE2B00802CE1 /* iPhone.m */; };
 		A378AC9B2C7DBE4300802CE1 /* Android.m in Sources */ = {isa = PBXBuildFile; fileRef = A378AC9A2C7DBE4300802CE1 /* Android.m */; };
 		A3858EB82C815F200002B5B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3858EB72C815F200002B5B7 /* main.m */; };
+		A3858ECE2C81647C0002B5B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3858ECD2C81647C0002B5B7 /* main.m */; };
 		A3EEC47F2C7EC3B800BD3722 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EEC47E2C7EC3B800BD3722 /* main.m */; };
 		A3EEC4852C7EC3CA00BD3722 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EEC4842C7EC3CA00BD3722 /* Person.m */; };
 		A3EEC4882C7EC46600BD3722 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EEC4872C7EC46600BD3722 /* Student.m */; };
@@ -70,6 +71,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		A3858EBE2C8160170002B5B7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		A3858EC92C81647C0002B5B7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -179,6 +189,8 @@
 		A3858EB52C815F200002B5B7 /* 常用结构体 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "常用结构体"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3858EB72C815F200002B5B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A3858EC02C8160170002B5B7 /* NSNumber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NSNumber; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3858ECB2C81647C0002B5B7 /* NSDate */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NSDate; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3858ECD2C81647C0002B5B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A3EEC47C2C7EC3B800BD3722 /* 构造方法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "构造方法"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3EEC47E2C7EC3B800BD3722 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A3EEC4832C7EC3CA00BD3722 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -241,6 +253,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A3858EBD2C8160170002B5B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3858EC82C81647C0002B5B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -329,6 +348,7 @@
 				A3FAB45F2C8096DC00FA4520 /* NSMutableArray */,
 				A3FAB46A2C8099B500FA4520 /* NSDictionary */,
 				A3858EB62C815F200002B5B7 /* 常用结构体 */,
+				A3858ECC2C81647C0002B5B7 /* NSDate */,
 				A378AC5B2C787E6C00802CE1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -350,6 +370,7 @@
 				A3FAB4692C8099B500FA4520 /* NSDictionary */,
 				A3858EB52C815F200002B5B7 /* 常用结构体 */,
 				A3858EC02C8160170002B5B7 /* NSNumber */,
+				A3858ECB2C81647C0002B5B7 /* NSDate */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -392,6 +413,14 @@
 				A3858EB72C815F200002B5B7 /* main.m */,
 			);
 			path = "常用结构体";
+			sourceTree = "<group>";
+		};
+		A3858ECC2C81647C0002B5B7 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				A3858ECD2C81647C0002B5B7 /* main.m */,
+			);
+			path = NSDate;
 			sourceTree = "<group>";
 		};
 		A3EEC47D2C7EC3B800BD3722 /* 构造方法 */ = {
@@ -564,6 +593,23 @@
 			name = NSNumber;
 			productName = NSNumber;
 			productReference = A3858EC02C8160170002B5B7 /* NSNumber */;
+			productType = "com.apple.product-type.tool";
+		};
+		A3858ECA2C81647C0002B5B7 /* NSDate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3858ECF2C81647C0002B5B7 /* Build configuration list for PBXNativeTarget "NSDate" */;
+			buildPhases = (
+				A3858EC72C81647C0002B5B7 /* Sources */,
+				A3858EC82C81647C0002B5B7 /* Frameworks */,
+				A3858EC92C81647C0002B5B7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSDate;
+			productName = NSDate;
+			productReference = A3858ECB2C81647C0002B5B7 /* NSDate */;
 			productType = "com.apple.product-type.tool";
 		};
 		A3EEC47B2C7EC3B800BD3722 /* 构造方法 */ = {
@@ -743,6 +789,9 @@
 					A3858EBF2C8160170002B5B7 = {
 						CreatedOnToolsVersion = 15.4;
 					};
+					A3858ECA2C81647C0002B5B7 = {
+						CreatedOnToolsVersion = 15.4;
+					};
 					A3EEC47B2C7EC3B800BD3722 = {
 						CreatedOnToolsVersion = 15.4;
 					};
@@ -799,6 +848,7 @@
 				A3FAB4682C8099B500FA4520 /* NSDictionary */,
 				A3858EB42C815F200002B5B7 /* 常用结构体 */,
 				A3858EBF2C8160170002B5B7 /* NSNumber */,
+				A3858ECA2C81647C0002B5B7 /* NSDate */,
 			);
 		};
 /* End PBXProject section */
@@ -844,6 +894,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3858EC72C81647C0002B5B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3858ECE2C81647C0002B5B7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1123,6 +1181,22 @@
 			};
 			name = Release;
 		};
+		A3858ED02C81647C0002B5B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3858ED12C81647C0002B5B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		A3EEC4802C7EC3B800BD3722 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1320,6 +1394,15 @@
 			buildConfigurations = (
 				A3858EC52C8160170002B5B7 /* Debug */,
 				A3858EC62C8160170002B5B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3858ECF2C81647C0002B5B7 /* Build configuration list for PBXNativeTarget "NSDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3858ED02C81647C0002B5B7 /* Debug */,
+				A3858ED12C81647C0002B5B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
